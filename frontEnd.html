@@ -125,26 +125,6 @@
 				console.log('Lng Array: ' + lngCords);
                 //Open Socket and send arrays
                 console.log('preparing to open websocket and send data to controller program');
-                //WebSocket();
-				//send latitude array data to python
-				//**Note** data is send as strings so much be decoded by python program
-				/*$.getJSON($SCRIPT_ROOT + '/_array2python', {
-					wordlist: JSON.stringify(latCords)}, function(data){
-						console.log(data.result)
-						$( "#result" ).text(data.result);
-					}
-				);
-			
-				
-				//send longitude array data to python
-				//**Note** data is send as strings so much be decoded by python program
-				$.getJSON($SCRIPT_ROOT + '/_array2python', {
-					wordlist: JSON.stringify(lngCords)}, function(data){
-						console.log(data.result)
-						$( "#result" ).text(data.result);
-					}
-				);*/
-			//}
 
             //function WebSocket() {
                 if ("WebSocket" in window) {
