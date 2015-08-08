@@ -13,7 +13,7 @@ clients = dict()
 class IndexHandler(tornado.web.RequestHandler):
     @tornado.web.asynchronous
     def get(self):
-        self.render("PiFrontEnd.html")
+        self.render("FrontEnd.html")
 
 class WebSocketHandler(tornado.websocket.WebSocketHandler):
 
